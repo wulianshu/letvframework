@@ -18,6 +18,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
+ *
+ *
  * Created by liuzhuo on 2016/2/4.
  */
 public class TestActivity extends BaseActivity {
@@ -33,7 +35,6 @@ public class TestActivity extends BaseActivity {
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);
         this.setContentView(R.layout.test);
-
         mRecycler = (PullToRefreshRecyclerView) this.findViewById(R.id.list);
         mRecyclerView = mRecycler.getRefreshableView();
         RecyclerView.LayoutManager manager = new LinearLayoutManager(this) ;
