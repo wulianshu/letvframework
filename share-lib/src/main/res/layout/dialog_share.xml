@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/transparent" >
+
+    <com.dangdang.zframework.view.DDWebView
+        android:id="@+id/dialog_share_content_wv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible"
+        android:background="@android:color/transparent" />
+
+    <ProgressBar
+        android:id="@+id/dialog_share_loading_pb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/small_loading_box_bg"
+        android:indeterminateDrawable="@drawable/progress_circle"
+        android:padding="16dip" />
+
+</RelativeLayout>
